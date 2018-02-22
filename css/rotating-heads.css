@@ -1,0 +1,70 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.content-wrapper{
+    width: 659px;
+    margin: 5px auto;
+    padding:5px auto;
+}
+
+.row{
+    width: 100%;
+    margin-bottom: 2px;
+    padding-left: 10px;
+
+}
+
+.column-1-1,.column-1-3,.column-2-3{
+    float: left;
+    height: 50px;
+    margin: 1px auto;
+}
+
+
+
+
+.image-holder{
+    position: relative;
+    margin: 20px auto;
+    padding-left: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.head-image,.circle{
+    position: absolute;
+    top: 0;
+
+    width: 100px;
+    height: 50px;
+}
+
+.head-image{
+    z-index: 0;
+}
+
+.circle{
+    z-index: 2;
+}
+
+.front{
+    z-index: 1;
+}
+
+.widget{
+    padding: 30px 60px;
+    position: relative;
+    top: 0;
+}

@@ -1,16 +1,4 @@
-/*
-Filename: HeadImage.js
-Project: rotating heads
-Type: javascript
-Author: Jan Dellsperger
-Initial Version: 14. October 2013
 
-This is the class for the head-image object. Per rotating head one headImage
-object has to be instanciated.
-
-Changelog:
-23.10.2013 - 1px where everyones front picture was shown removed
-*/
 var className;
 var imageTop;
 var imageLeft;
